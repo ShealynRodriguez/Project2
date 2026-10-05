@@ -1,43 +1,35 @@
-# Git workflow
+# how we're using git
 
-Short version: **never work directly on `main`**. Make a branch, commit small, open a pull request.
+dont push straight to main pls. make a branch and do a pull request
 
-## One-time setup
+## first time
 ```
-git clone <repo-url>
-cd pokemon-code-battle
-git config user.name "Your Name"
-git config user.email "you@example.com"
+git clone https://github.com/ShealynRodriguez/Project2.git
+git config user.name "your name"
+git config user.email "your github email"
 ```
 
-## Every time you work
+## every time
 ```
 git checkout main
-git pull                                     # get the latest from the team
-git checkout -b yourname/short-description   # e.g. sam/main-menu
+git pull
+git checkout -b yourname/what-youre-doing
 
-# ...make changes...
+(do your stuff)
 
-git add <files>
-git commit -m "Add main menu screen"
-git push -u origin yourname/short-description
+git add .
+git commit -m "what you did"
+git push -u origin yourname/what-youre-doing
 ```
-Then open a **pull request** on GitHub and ask a teammate to look at it before merging.
+then go on github and open a pull request, have someone look at it before merging
 
-## Rules of thumb
-- Commit small and often. One idea per commit.
-- Write commit messages that say what changed ("Add fire sprite"), not "stuff".
-- Pull before you start working each day.
-- Stuck on a merge conflict? Ask in the Discord before deleting anything.
-- Don't commit build output, editor folders, or big files you can regenerate. `.gitignore` handles the common ones.
-- Check the license before adding any asset you didn't make.
+## unity stuff
+- always commit the .meta files with whatever file they go with
+- everyone use the same unity version
+- only one person in a scene at a time, say in the group chat if youre editing one
+- if you see Library/ or Temp/ in git status dont commit it
 
-## Unity-specific rules
-- **Commit `.meta` files together with the asset they belong to.** Never delete or ignore them.
-- **Everyone uses the same Unity version** (6.3 LTS). Don't upgrade the project.
-- **One person per scene at a time.** Tell the Discord before you open a scene. Prefer prefabs so people don't edit the same file.
-- Before committing, check `git status` for surprises. If you see `Library/` or `Temp/`, stop and ask.
-- Full setup steps: `docs/unity-setup.md`.
-
-## Branch names
-`name/what-you-are-doing`, for example `sam/main-menu`, `alex/forest-tileset`, `jo/catch-logic`
+## branch name examples
+- shealyn/main-menu
+- yourname/forest-tileset
+- yourname/catch-logic

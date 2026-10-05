@@ -1,18 +1,14 @@
-# Asset credits and rules
+# Assets
 
-Sprites live in `Assets/Sprites/`.
+if you add art or sound you didnt make, put where you got it and the license here. check the license first!
 
-| File | Type | Notes |
+name files lowercase with underscores like fire_sprite_32px.png
+
+| file | made by / where from | license |
 |---|---|---|
-| `fire_sprite_32px.png`, `water_sprite_32px.png`, `grass_sprite_32px.png` | fire, water, grass | Real size, 32x32. Use these in the game. |
-| `*_16x.png` | same | 512x512 preview, upscaled 16x for viewing only. Don't use in the game. |
+| fire_sprite_32px.png | us | ours |
+| water_sprite_32px.png | us | ours |
+| grass_sprite_32px.png | us | ours |
+| | | |
 
-**Rules for adding assets**
-- Always check the license before adding anything you didn't make. Record the source and license in the table below.
-- Keep file names lowercase with underscores: `type_name_size.png`.
-- Put music and sound effects in `Assets/Audio/`.
-
-## Credits and licenses
-| Asset | Source | License |
-|---|---|---|
-| Fire, water, and grass sprites | Made by our team | Ours |
+(the _16x files are just bigger previews of the same sprites, dont use them in game)

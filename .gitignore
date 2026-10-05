@@ -1,4 +1,4 @@
-# ---- Unity: generated folders (never commit these) ----
+# unity
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -9,20 +9,18 @@
 [Mm]emoryCaptures/
 [Rr]ecordings/
 
-# Unity generated files
 *.pidb.meta
 *.pdb.meta
 *.mdb.meta
 sysinfo.txt
 crashlytics-build.properties
 
-# Built player files
 *.apk
 *.aab
 *.unitypackage
 *.app
 
-# ---- IDE / editor ----
+# editors
 .vs/
 .vscode/
 .idea/
@@ -41,11 +39,7 @@ crashlytics-build.properties
 *.opendb
 *.VC.db
 
-# ---- OS ----
+# os
 .DS_Store
 Thumbs.db
 
-# ---- Python (terminal prototype) ----
-__pycache__/
-*.pyc
-.venv/

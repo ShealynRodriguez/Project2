@@ -1,37 +1,42 @@
 # Pokemon Code Battle
 
-A Pokemon-style, type-based battle game where you fight by writing code. Solve the coding challenge and your attack lands. Get it wrong and it misses. Built in **Unity 6.3 LTS**.
+pokemon style battle game but you attack by writing code. get the code right and the attack hits, get it wrong and it does nothing. making it in Unity.
 
-**Team meeting:** Tuesdays at 8:00 PM
+meetings are tuesdays at 8pm
 
-## How it works
-1. Pick a programming language before the game starts.
-2. Fight three mini battles. Catch each Pokemon to win it.
-3. Take your caught team into one big boss fight.
-4. Every attack is a code challenge (easy, medium, or hard). Harder code does more damage, wrong code does none.
+## the idea
+- pick a coding language before the game starts
+- 3 mini fights, catch the pokemon in each one
+- then 1 big boss fight with the pokemon you caught
+- attacks are code questions (easy / medium / hard), harder = more damage
+- types matter (fire > grass etc)
 
-Full notes and open questions: [`docs/meeting-notes.md`](docs/meeting-notes.md)
+more details in [docs/meeting-notes.md](docs/meeting-notes.md)
 
-## Repo layout
+## team
+| name | role |
+|---|---|
+| | Gameplay Programmer |
+| | Systems / UI Programmer |
+| | Art / Audio / Level Designer |
+
+role stuff is in [docs/roles](docs/roles)
+
+## folders
 ```
 Assets/
-  Scripts/Core/     Game rules (plain C#, tested outside Unity)
-  Scripts/Game/     Unity glue: BattleController, GameSession
-  Resources/        challenges.json (all the code questions)
-  Sprites/          Fire, water, grass placeholder sprites
-  Scenes/ Prefabs/ UI/ Audio/ Tilesets/    Ready for the team to fill
-docs/               Meeting notes, role guides, Unity setup, architecture
-prototype/          Original Python terminal prototype (design reference)
-CONTRIBUTING.md     Git workflow for the team
+  Scripts/     code goes here
+  Scenes/
+  Prefabs/
+  Sprites/     fire, water, grass sprites are in here already
+  Tilesets/
+  UI/
+  Audio/
+  Resources/   challenges.json (the code questions)
+docs/          notes, design doc, roles, setup
 ```
-Unity's `Packages/` and `ProjectSettings/` get added during setup (see below).
 
-## Start here
-1. **Setup:** [`docs/unity-setup.md`](docs/unity-setup.md). Same Unity version for everyone, and one person does the first-time project setup.
-2. **Git:** [`CONTRIBUTING.md`](CONTRIBUTING.md). Branch, commit small, pull request.
-3. **Code:** [`docs/architecture.md`](docs/architecture.md). Where things live and how the UI hooks in.
-
-## Team roles
-- [Gameplay Programmer](docs/roles/gameplay-programmer.md)
-- [Systems / UI Programmer](docs/roles/systems-ui-programmer.md)
-- [Art / Audio / Level Designer](docs/roles/art-audio-level-designer.md)
+## getting started
+1. read [docs/unity-setup.md](docs/unity-setup.md) and install the same unity version as everyone
+2. read [CONTRIBUTING.md](CONTRIBUTING.md) for how we're using git
+3. fill in your part of [docs/design-doc.md](docs/design-doc.md)

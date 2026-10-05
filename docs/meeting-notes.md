@@ -1,33 +1,47 @@
-# Team Meeting Notes: Pokemon Code Battle Game
+# Meeting Notes
 
-**Meeting schedule:** Weekly on Tuesdays at 8:00 PM
+tuesdays 8pm. add new meetings at the top, copy the template at the bottom
 
-## Game Concept
-A Pokemon-style, type-based battle game where players fight by writing code blocks. Coding is the attack mechanic: solve the challenge and you hit, miss it and you don't.
+---
 
-## Game Setup
-- Before the game starts, the player chooses their programming language.
-- All battle challenges are then presented in that language.
+## Week 1
 
-## Battle Mechanics
-- **Code challenges:** Each attack move triggers a coding statement the player has to complete.
-- **Difficulty tiers:** Challenges come in Easy, Medium, and Hard.
-- **Damage scaling:** Harder statements do more damage.
-- **Failure rule:** If the player gets the code wrong, the attack does no damage.
-- **Type matchups:** Pokemon types affect the battle (e.g., type advantages could boost damage).
+**here:**
 
-## Game Structure
-1. **Three mini fights**
-   - The goal is to catch the Pokemon you fight.
-   - Catching each one counts toward winning.
-2. **One big final fight**
-   - The boss battle, using the Pokemon you caught.
+**notes:**
+- pokemon type battling game where you have to do code blocks for the battles
+- pick the language before the game starts
+- easy medium hard questions, harder ones do more damage. if you get it wrong it does no damage
+- types affect damage (type advantages)
+- 3 mini fights then one big fight
+- catch the pokemon in the mini fights to win
 
-## Win Condition
-Catch the Pokemon in the mini fights to win.
+**questions for next time:**
+- [ ] what languages? (python, javascript, ...)
+- [ ] how do you catch them? low hp, a special code question, or both?
+- [ ] how do types and difficulty damage work together?
+- [ ] one try per question or multiple?
 
-## Open Questions to Settle Next Meeting
-- [ ] Which languages will we support (Python, JavaScript, etc.)?
-- [ ] How is a catch triggered: HP threshold, a special coding challenge, or both?
-- [ ] How do type advantages interact with difficulty-based damage?
-- [ ] Do players get multiple attempts per challenge, or one shot?
+**to do:**
+- [ ]
+- [ ]
+
+---
+
+## template
+
+## Week _
+
+**here:**
+
+**notes:**
+-
+
+**decided:**
+-
+
+**questions for next time:**
+- [ ]
+
+**to do:**
+- [ ] name -
